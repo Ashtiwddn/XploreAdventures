@@ -239,5 +239,93 @@
       "geographicalCoordinates": "30.7333° N, 79.5833° E",
       "inclusions": ["Trek Guide & Staff/Helpers", "Camp/Hotel Stay", "Meals as per itinerary", "Medical Services"],
       "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities.", "Entry fees and permits for Valley of Flowers and Hemkund Sahib"]
+    },
+    {
+      "title": "Chopta Tungnath",
+      "description": "A 4-day trek to the highest Shiva temple in the world, offering panoramic views of the Himalayas and a serene environment.",
+      "imageUrls": [
+        "/images/chopta_tungnath.jpg",
+        "/images/Chopta_Tungnath_1.jpg",
+        "/images/Chopta_Tungnath_2.jpg"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "description": "Arrival at Chopta.",
+          "detailedDescription": "Roll call & Pick up from Delhi at 1-2 AM. Reach Chopta and check in to the campsite. Dinner & Overnight stay at Chopta.",
+          "distance": "400 KMS from Delhi",
+          "duration": "10-12 HRS from Delhi",
+          "highlights": ["Arrival at Chopta", "Check-in to campsite", "Dinner & Overnight stay"],
+          "altitude": "8,790 ft"
+        },
+        {
+          "dayNumber": 2,
+          "description": "Trek to Tungnath.",
+          "detailedDescription": "Post breakfast, we will start our trek to Tungnath. We will pass through beautiful meadows and rhododendron forests. Reach Tungnath and visit the highest Shiva temple. Dinner and overnight stay at Tungnath.",
+          "distance": "3.5 KMS",
+          "duration": "3-4 HRS",
+          "highlights": ["Trek through meadows", "Visit Tungnath temple", "Overnight stay at Tungnath"],
+          "altitude": "12,073 ft"
+        },
+        {
+          "dayNumber": 3,
+          "description": "Trek to Chandrashila & back to Chopta.",
+          "detailedDescription": "Early morning wake-up call for the trek to Chandrashila. Enjoy the panoramic views of the Himalayas from the summit. Descend back to Chopta. Dinner and overnight stay at Chopta.",
+          "distance": "1.5 KMS to Chandrashila, 5 KMS total",
+          "duration": "4-5 HRS",
+          "highlights": ["Trek to Chandrashila", "Panoramic Himalayan views", "Descend to Chopta"],
+          "altitude": "13,123 ft"
+        },
+        {
+          "dayNumber": 4,
+          "description": "Departure.",
+          "detailedDescription": "Post breakfast, check out from the campsite and proceed towards Delhi. Reach Delhi by evening. Tour ends with happy memories.",
+          "distance": "400 KMS to Delhi",
+          "duration": "10-12 HRS",
+          "highlights": ["Check out from campsite", "Departure from Chopta", "Reach Delhi by evening"]
+        }
+      ],
+      "maxAltitude": "13,123 ft",
+      "difficulty": "Easy to Moderate",
+      "totalDistance": "Approx. 12 Kms",
+      "bestTimeToVisit": "April to November",
+      "geographicalCoordinates": "30.4900° N, 79.2100° E",
+      "inclusions": ["Trek Guide & Staff/Helpers", "Camp Stay", "Meals as per itinerary", "Medical Services"],
+      "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities."]
+    },
+    {
+      "title": "Nag Tibba",
+      "description": "A 2-day trek to the Nagtibba peak, offering stunning views of the Himalayan ranges and a perfect weekend getaway.",
+      "imageUrls": [
+        "/images/nagtibba.jpg",
+        "/images/Nagtibba_1.jpg",
+        "/images/Nagtibba_2.jpg"
+      ],
+      "days": [
+        {
+          "dayNumber": 1,
+          "description": "Arrival at Pantwari and trek to Nagtibba base camp.",
+          "detailedDescription": "Roll call & Pick up from Dehradun at 7 AM. Reach Pantwari and start the trek to Nagtibba base camp. Pass through beautiful forests and meadows. Reach the base camp and enjoy the scenic beauty. Dinner & Overnight stay at Nagtibba base camp.",
+          "distance": "85 KMS drive, 4 KMS trek",
+          "duration": "3 HRS drive, 4-5 HRS trek",
+          "highlights": ["Drive to Pantwari", "Trek to Nagtibba base camp", "Scenic beauty"],
+          "altitude": "7,600 ft"
+        },
+        {
+          "dayNumber": 2,
+          "description": "Summit Nagtibba peak and return to Dehradun.",
+          "detailedDescription": "Early morning wake-up call for the summit climb. Start the trek to Nagtibba peak (9,915 ft). Enjoy the breathtaking views of the Himalayan ranges from the summit. Descend back to Pantwari and drive to Dehradun. Reach Dehradun by evening. Tour ends with happy memories.",
+          "distance": "4 KMS trek, 85 KMS drive",
+          "duration": "4-5 HRS trek, 3 HRS drive",
+          "highlights": ["Summit climb", "Breathtaking Himalayan views", "Descend to Pantwari", "Drive to Dehradun"]
+        }
+      ],
+      "maxAltitude": "9,915 ft",
+      "difficulty": "Easy to Moderate",
+      "totalDistance": "Approx. 8 Kms trek, 170 Kms drive",
+      "bestTimeToVisit": "October to March",
+      "geographicalCoordinates": "30.6086° N, 78.0547° E",
+      "inclusions": ["Trek Guide & Staff/Helpers", "Camp Stay", "Meals as per itinerary", "Medical Services"],
+      "exclusions": ["Travel/Transport (as per the package)", "Trek Gear (available at the campsite on rent)", "Food during transit to and from the trek starting point", "Mules & Backpack offloading charges", "Anything apart from inclusions", "Trek Insurance (mandatory)", "Any added expense before, during or after the trek including medical or unforeseen natural calamities."]
     }
   ]

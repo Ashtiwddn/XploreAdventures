@@ -83,7 +83,6 @@ const Index = () => {
                   className="cursor-scale cursor-default lg:cursor-none w-full xs:w-[49%] md:w-[32%] mb-[1.5%] relative overflow-hidden bg-white dark:bg-primaryblack border border-white dark:border-primaryblack hover:border-primaryred dark:hover:border-primaryred text-primaryblack rounded-xl h-56 xl:h-68" // Increased height
                 >
                   {destination.imageUrls[0] &&
-                  destination.imageUrls[0].startsWith("https://") &&
                   (destination.imageUrls[0].includes(".jpg") ||
                     destination.imageUrls[0].includes(".png") ||
                     destination.imageUrls[0].includes("images")) ? (

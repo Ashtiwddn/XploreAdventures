@@ -58,8 +58,8 @@ const FooterSection = () => {
             <h1 className="font-medium">Contact</h1>
             <div className="flex flex-col gap-2 xl:gap-3 text-primarygray dark:text-slate-400">
               <h1>Dehradun, Uttarakhand</h1>
-              <h1>xploreadventures999@gmail.com</h1>
-              <h1>9876543210</h1>
+              <h1>xploreadventuresuk@gmail.com</h1>
+              <h1>8868802405</h1>
             </div>
           </div>
           <div className="flex flex-col gap-3 lg:gap-4 xl:gap-6">

@@ -95,8 +95,7 @@ const index = () => {
                   key={index}
                   className="cursor-default lg:cursor-none cursor-scale w-full xs:w-[49%] sm:w-[32%] xl:w-[23.5%] mb-[1.5%] overflow-hidden bg-white dark:bg-primaryblack border border-white dark:border-primaryblack hover:border-primaryred dark:hover:border-primaryred text-primaryblack dark:text-slate-200 rounded-xl h-48 xl:h-56"
                 >
-                  {promo.imageUrl.startsWith("https://") &&
-                  (promo.imageUrl.includes(".jpg") ||
+                  {(promo.imageUrl.includes(".jpg") ||
                     promo.imageUrl.includes(".png") ||
                     promo.imageUrl.includes("images")) ? (
                     <img

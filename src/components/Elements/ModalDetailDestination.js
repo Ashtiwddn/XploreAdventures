@@ -74,7 +74,7 @@ const ModalDetailDestination = ({
               </button>
             </div>
             <div
-              className={`flex flex-col items-center justify-center w-fit h-fit p-5`}
+              className={`flex flex-col items-center justify-center w-fit h-fit p-8`}
             >
               <div className="flex flex-col items-start justify-center gap-4 w-fit h-fit">
                 <div
@@ -90,7 +90,7 @@ const ModalDetailDestination = ({
                       {selectedDestination.category.name}
                     </h1>
                   </div>
-                  <div className="flex flex-col -mb-2 sm:mb-0 w-[280px] xs:w-[290px] sm:w-[260px] md:w-[300px] lg:w-[340px] xl:w-[380px] overflow-scroll no-scrollbar gap-3 rounded-lg h-[194px] md:h-[240px] lg:h-[260px] xl:h-[280px]">
+                  <div className="flex flex-col -mb-2 sm:mb-0 w-[320px] xs:w-[330px] sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px] overflow-scroll no-scrollbar gap-3 rounded-lg h-[234px] md:h-[280px] lg:h-[300px] xl:h-[320px]">
                     {selectedDestination.imageUrls.map((imageUrl, index) => (
                       <div
                         key={index}
@@ -100,8 +100,7 @@ const ModalDetailDestination = ({
                             : "h-[75%]"
                         }`}
                       >
-                        {imageUrl.startsWith("https://") &&
-                        (imageUrl.includes(".jpg") ||
+                        { (imageUrl.includes(".jpg") ||
                           imageUrl.includes(".png") ||
                           imageUrl.includes("images")) ? (
                           <img
@@ -129,7 +128,7 @@ const ModalDetailDestination = ({
                         {selectedDestination.category.name}
                       </h1>
                     </div>
-                    <div className="flex w-[280px] xs:w-full items-center gap-2">
+                    <div className="flex w-[320px] xs:w-full items-center gap-2">
                       <div className="flex items-center">
                         <i className="mr-1 fa-solid fa-star text-primaryyellow"></i>
                         <h1 className="pt-[1px]">
@@ -144,7 +143,7 @@ const ModalDetailDestination = ({
                         <h1 className="capitalize">{`${selectedDestination.city}, ${selectedDestination.province}`}</h1>
                       </div>
                     </div>
-                    <div className="flex items-center w-[280px] xs:w-full gap-2 md:gap-[10px] xl:gap-3 px-3 py-1 lg:py-[6px] xl:py-2 mb-1 lg:mb-[6px] xl:mb-2 rounded-lg bg-slate-100 dark:bg-slate-700">
+                    <div className="flex items-center w-[320px] xs:w-full gap-2 md:gap-[10px] xl:gap-3 px-3 py-1 lg:py-[6px] xl:py-2 mb-1 lg:mb-[6px] xl:mb-2 rounded-lg bg-slate-100 dark:bg-slate-700">
                       <div className="relative flex w-fit">
                         <div className="absolute z-10 w-full h-[2px] bg-primaryred rounded-full -rotate-6 top-[40%]"></div>
                         <h1 className="relative text-primarygray dark:text-slate-400">
@@ -184,20 +183,29 @@ const ModalDetailDestination = ({
                         </h1>
                         <div className="w-[70%] flex flex-col gap-1 items-start">
                           <h1>{selectedDestination.address}</h1>
-                          {/* <button
-                            onClick={handleViewMap}
-                            className="font-medium cursor-default cursor-scale lg:cursor-none text-primaryred hover:text-redhover dark:text-primaryyellow dark:hover:text-yellowhover"
-                          >
-                            View Map
-                            <i class="fa-solid fa-chevron-right mx-2 text-[11px]"></i>
-                          </button> */}
                         </div>
                       </div>
+                    </div>
+                    <div className="flex gap-2 mt-4 justify-center">
+                      <button
+                        onClick={handleViewMap}
+                        className="font-medium cursor-default cursor-scale lg:cursor-none text-primaryred hover:text-redhover dark:text-primaryyellow dark:hover:text-yellowhover"
+                      >
+                        View Map
+                        <i class="fa-solid fa-chevron-right mx-2 text-[11px]"></i>
+                      </button>
+                      <a
+                        href={`/itinerary?title=${selectedDestination.title}`} // Update the link to your itinerary page
+                        className="font-medium cursor-default cursor-scale lg:cursor-none text-primaryblue dark:text-primaryyellow"
+                      >
+                        View Itinerary
+                        <i class="fa-solid fa-chevron-right mx-2 text-[11px]"></i>
+                      </a>
                     </div>
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col w-[280px] xs:w-[290px] sm:w-[567px] md:w-[616px] lg:w-[686px] xl:w-[777px] h-[401px] sm:h-[195px] md:h-[240px] lg:h-[260px] xl:h-[280px] ${
+                  className={`flex flex-col w-[320px] xs:w-[330px] sm:w-[607px] md:w-[656px] lg:w-[726px] xl:w-[817px] h-[441px] sm:h-[235px] md:h-[280px] lg:h-[300px] xl:h-[320px] ${
                     viewMap ? "" : "hidden"
                   }`}
                 >

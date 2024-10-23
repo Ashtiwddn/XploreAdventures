@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { setShowModal } from "@/redux/slice/showModalSlice";
+import Modal from "@/components/Elements/Modal"; // Import the Modal component
+import { sendToWhatsapp } from "@/utils/whatsapp"; // Import the sendToWhatsapp function
 
 const ModalDetailPromo = ({
   showDetailPromo,
@@ -10,11 +12,22 @@ const ModalDetailPromo = ({
   setSelectedPromo,
 }) => {
   const dispatch = useDispatch();
+  const [showModal, setShowModal] = useState(false); // State for modal visibility
 
   const handleCloseEditPromo = () => {
     setShowDetailPromo(false);
     dispatch(setShowModal(false));
     setSelectedPromo(null);
+  };
+
+  const handleBookNowClick = () => {
+    setShowModal(true); // Show the modal
+  };
+
+  const handleModalSubmit = (formData) => {
+    const message = `New booking for ${selectedPromo.title}:\n\n${JSON.stringify(formData, null, 2)}`;
+    sendToWhatsapp(message); 
+    setShowModal(false); // Close the modal after submission
   };
 
   const formatNumber = (number) => {
@@ -92,7 +105,7 @@ const ModalDetailPromo = ({
                           View Itinerary
                         </a>
                         <button
-                          onClick={() => (window.location.href = "/book-now")} // Update the link to your booking page
+                          onClick={handleBookNowClick} // Update the onClick handler
                           className="px-4 py-2 mt-2 bg-primaryblue text-white rounded-lg hover:bg-bluehover"
                         >
                           Book Now
@@ -121,6 +134,14 @@ const ModalDetailPromo = ({
             </div>
           </div>
         </div>
+        {/* Render the modal conditionally */}
+        {showModal && (
+          <Modal 
+            title={`Book ${selectedPromo.title}`} 
+            onClose={() => setShowModal(false)}
+            onSubmit={handleModalSubmit}
+          />
+        )}
       </>
     )
   );
