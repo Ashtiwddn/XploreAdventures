@@ -72,8 +72,8 @@
             "title": "Valley of Flowers",
             "description": "The Valley of Flowers is a UNESCO World Heritage site known for its meadows of endemic alpine flowers and diverse fauna.",
             "imageUrls": [
-                "/images/valley_of_flowers_1.jpg",
-                "/images/valley_of_flowers_2.jpg"
+              "/images/Valley_of_Flowers_1.jpg",
+              "/images/Valley_of_Flowers_2.jpg"
             ],
             "price": 13000,
             "price_discount": 12000,
@@ -93,15 +93,15 @@
             "category": {
                 "id": "3d274fa6-d01c-4f66-a93e-c95ad3cb25ef",
                 "name": "Trekking",
-                "imageUrl": "/images/chopta_tungnath.jpg",
+                "imageUrl": "/images/Chopta_Tungnath_1.jpg",
                 "createdAt": "2024-08-01T04:00:41.391Z",
                 "updatedAt": "2024-09-06T16:42:14.273Z"
             },
             "title": "Chopta Tungnath",
             "description": "Chopta Tungnath is a 4-day trek to the highest Shiva temple in the world, offering panoramic views of the Himalayas and a serene environment.",
             "imageUrls": [
-                "/images/chopta_tungnath_1.jpg",
-                "/images/chopta_tungnath_2.jpg"
+                "/images/Chopta_Tungnath_1.jpg",
+                "/images/Chopta_Tungnath_2.jpg"
             ],
             "price": 6000,
             "price_discount": 5500,
